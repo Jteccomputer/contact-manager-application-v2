@@ -23,7 +23,7 @@ const Profile = () => {
           <div className="profile_col_1_sub_1">
             <img src={profilePhoto} alt="" />
           </div>
-          <div className="profile_col_1_sub_2">Targema Charles</div>
+          <div className="profile_col_1_sub_2">Chinedu Chukwuka</div>
           <div className="profile_col_1_sub_3">3/29/2023 &bull; 10:21 am</div>
           <div className="profile_col_1_sub_4">
             <Link to="/profile/settings">
@@ -51,15 +51,15 @@ const Profile = () => {
           </div>
           <div className="profile_col_2_sub_2">
             <div className="contact_box">
-              <div className="contact_box_item">Targema Charles</div>
+              <div className="contact_box_item">Chinedu Chukwuka</div>
               <div className="contact_box_item">
-                <a href="mailto:targemac@gmail.com">
+                <a href="mailto:jtechclass2016@gmail.com">
                   <FaEnvelope /> Send Email
                 </a>
               </div>
               <div className="contact_box_item">
                 <FaPhone />
-                08097866451
+                08062734347
               </div>
               <div className="contact_box_action_grp">
                 <Link to="/profile/contact/edit" className="edit_btn">
@@ -73,11 +73,11 @@ const Profile = () => {
               </div>
             </div>
             <div className="contact_box">
-              <div className="contact_box_item">Targema Charles</div>
+              <div className="contact_box_item">Chinedu Chukwuka</div>
               <div className="contact_box_item">
-                <a href="mailto:targemac@gmail.com">targemac@gmail.com</a>
+                <a href="mailto:jtechclass2016@gmail.com">jtechclass2016@gmail.com</a>
               </div>
-              <div className="contact_box_item">08097866451</div>
+              <div className="contact_box_item">08062734347</div>
               <div className="contact_box_action_grp">
                 <button className="edit_btn">
                   <FaEdit />
@@ -90,11 +90,27 @@ const Profile = () => {
               </div>
             </div>
             <div className="contact_box">
-              <div className="contact_box_item">Targema Charles</div>
+              <div className="contact_box_item">Chinedu Chukwuka</div>
               <div className="contact_box_item">
-                <a href="mailto:targemac@gmail.com">targemac@gmail.com</a>
+                <a href="mailto:jtechclass2016@gmail.com">jtechclass2016@gmail.com</a>
               </div>
-              <div className="contact_box_item">08097866451</div>
+              <div className="contact_box_item">08062734347</div>
+              <div className="contact_box_action_grp">
+                <button className="edit_btn">
+                  <FaEdit />
+                  Edit
+                </button>
+                <button className="delete_btn">
+                  <FaTrash />
+                  Delete
+                </button>
+              </div>
+            </div><div className="contact_box">
+              <div className="contact_box_item">Chinedu Chukwuka</div>
+              <div className="contact_box_item">
+                <a href="mailto:jtechclass2016@gmail.com">jtechclass2016@gmail.com</a>
+              </div>
+              <div className="contact_box_item">08062734347</div>
               <div className="contact_box_action_grp">
                 <button className="edit_btn">
                   <FaEdit />
@@ -107,11 +123,11 @@ const Profile = () => {
               </div>
             </div>
             <div className="contact_box">
-              <div className="contact_box_item">Targema Charles</div>
+              <div className="contact_box_item">Chinedu Chukwuka</div>
               <div className="contact_box_item">
-                <a href="mailto:targemac@gmail.com">targemac@gmail.com</a>
+                <a href="mailto:jtechclass2016@gmail.com">jtechclass2016@gmail.com</a>
               </div>
-              <div className="contact_box_item">08097866451</div>
+              <div className="contact_box_item">08062734347</div>
               <div className="contact_box_action_grp">
                 <button className="edit_btn">
                   <FaEdit />
@@ -124,11 +140,11 @@ const Profile = () => {
               </div>
             </div>
             <div className="contact_box">
-              <div className="contact_box_item">Targema Charles</div>
+              <div className="contact_box_item">Chinedu Chukwuka</div>
               <div className="contact_box_item">
-                <a href="mailto:targemac@gmail.com">targemac@gmail.com</a>
+                <a href="mailto:jtechclass2016@gmail.com">jtechclass2016@gmail.com</a>
               </div>
-              <div className="contact_box_item">08097866451</div>
+              <div className="contact_box_item">08062734347</div>
               <div className="contact_box_action_grp">
                 <button className="edit_btn">
                   <FaEdit />
@@ -141,11 +157,11 @@ const Profile = () => {
               </div>
             </div>
             <div className="contact_box">
-              <div className="contact_box_item">Targema Charles</div>
+              <div className="contact_box_item">Chinedu Chukwuka</div>
               <div className="contact_box_item">
-                <a href="mailto:targemac@gmail.com">targemac@gmail.com</a>
+                <a href="mailto:jtechclass2016@gmail.com">jtechclass2016@gmail.com</a>
               </div>
-              <div className="contact_box_item">08097866451</div>
+              <div className="contact_box_item">08062734347</div>
               <div className="contact_box_action_grp">
                 <button className="edit_btn">
                   <FaEdit />
@@ -158,11 +174,11 @@ const Profile = () => {
               </div>
             </div>
             <div className="contact_box">
-              <div className="contact_box_item">Targema Charles</div>
+              <div className="contact_box_item">Chinedu Chukwuka</div>
               <div className="contact_box_item">
-                <a href="mailto:targemac@gmail.com">targemac@gmail.com</a>
+                <a href="mailto:jtechclass2016@gmail.com">jtechclass2016@gmail.com</a>
               </div>
-              <div className="contact_box_item">08097866451</div>
+              <div className="contact_box_item">08062734347</div>
               <div className="contact_box_action_grp">
                 <button className="edit_btn">
                   <FaEdit />
@@ -175,11 +191,28 @@ const Profile = () => {
               </div>
             </div>
             <div className="contact_box">
-              <div className="contact_box_item">Targema Charles</div>
+              <div className="contact_box_item">Chinedu Chukwuka</div>
               <div className="contact_box_item">
-                <a href="mailto:targemac@gmail.com">targemac@gmail.com</a>
+                <a href="mailto:jtechclass2016@gmail.com">jtechclass2016@gmail.com</a>
               </div>
-              <div className="contact_box_item">08097866451</div>
+              <div className="contact_box_item">08062734347</div>
+              <div className="contact_box_action_grp">
+                <button className="edit_btn">
+                  <FaEdit />
+                  Edit
+                </button>
+                <button className="delete_btn">
+                  <FaTrash />
+                  Delete
+                </button>
+              </div>
+            </div>
+            <div className="contact_box">
+              <div className="contact_box_item">Chinedu Chukwuka</div>
+              <div className="contact_box_item">
+                <a href="mailto:jtechclass2016@gmail.com">jtechclass2016@gmail.com</a>
+              </div>
+              <div className="contact_box_item">08062734347</div>
               <div className="contact_box_action_grp">
                 <button className="edit_btn">
                   <FaEdit />

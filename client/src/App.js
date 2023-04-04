@@ -1,6 +1,8 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
+import About from "./components/about";
+
 import SignUp from "./components/SignUp/SignUp";
 import NotFound from "./components/NotFound/NotFound";
 import Login from "./components/Login/Login";
@@ -11,6 +13,7 @@ import Settings from "./components/Settings/Settings";
 import ChangePassword from "./components/Profile/ChangePassword";
 import DeleteAccount from "./components/Profile/DeleteAccount";
 import EditProfile from "./components/Profile/EditProfile";
+import Contactpage from "./components/Contactpage";
 
 
 function App() {
@@ -18,6 +21,10 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contactpage" element={<Contactpage />} />
+
+
         <Route path="/signup" element={<SignUp />} />
         <Route path="/login" element={<Login />} />
 
@@ -29,6 +36,7 @@ function App() {
         <Route path="/profile/password" element={<ChangePassword />} />
         <Route path="/profile/delete-account" element={<DeleteAccount />} />
         <Route path="/profile/edit" element={<EditProfile />} />
+
 
         <Route path="*" element={<NotFound />} />
       </Routes>
