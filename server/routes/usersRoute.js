@@ -2,7 +2,13 @@ const express = require("express");
 const usersRoute = express.Router();
 
 // importing usersController
-const { registerUser, loginUser, getAllUsers, getSingleUser, updateSingleUser, deleteSingleUser } = require('../controllers/usersController');
+const { 
+    registerUser, 
+    loginUser, 
+    getAllUsers, 
+    getSingleUser, 
+    updateSingleUser, 
+    deleteSingleUser } = require('../controllers/usersController');
 
 // @define: register user
 // @route: /api/users/register
