@@ -16,7 +16,7 @@ app.use("/api/contacts", contactRoute);
 // building default route for our home page
 app.get('/', (req, res) => {
 
-    res.send('home page')
+    res.send('home page');
 });
 
 app.listen(PORT, () =>  {
