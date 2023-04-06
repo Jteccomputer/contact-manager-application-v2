@@ -2,6 +2,7 @@ const dotenv = require("dotenv").config();
 const express = require("express");
 const usersRoute = require("./routes/usersRoute");
 const contactRoute = require("./routes/contactRoute");
+const productsRoute = require("./routes/productsRoute");
 const app = express();
 
 const PORT = process.env.PORT || 5000;
@@ -12,6 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/api/users", usersRoute);
 app.use("/api/contacts", contactRoute);
+app.use("/api/products", productsRoute);
 
 // building default route for our home page
 app.get('/', (req, res) => {
