@@ -2,8 +2,11 @@ const dotenv = require("dotenv").config();
 const express = require("express");
 const usersRoute = require("./routes/usersRoute");
 const contactRoute = require("./routes/contactRoute");
+const db_connection = require("./config/dbConnect");
 const productsRoute = require("./routes/productsRoute");
 const app = express();
+
+db_connection();
 
 const PORT = process.env.PORT || 5000;
 

@@ -19,7 +19,7 @@
         // @ route:     /api/products/
         // @ privacy:   protected
         // @ method:    POST
-        const addContact = async (req,res) => {
+        const addProduct = async (req,res) => {
             res.json({message: "add product!" });
         };
     
