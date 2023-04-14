@@ -1,41 +1,39 @@
 const mongoose = require('mongoose'); // Erase if already required
 
 // Declare the Schema of the Mongo model
-var userSchema = new mongoose.Schema({
+var contactsSchema = new mongoose.Schema({
     first_name:{
         type:String,
-        required: true,
+        required:true,
+    
     },
-
     last_name:{
         type:String,
         required:true,
+    
     },
-
     email:{
         type:String,
         required:true,
-        unique:true,
+    
     },
-
     phone:{
         type:String,
         required:true,
+    
     },
-
-    password:{
-        type:String,
+    user_id:{
+        type:mongoose.Schema.Types.ObjectId,
+        ref: "user",
         required:true,
+    
     },
-
-    last_seen:{
-        type:String,
-    },
-},
-    {
-        timestamps: true,
-    }
+    
+}, 
+{
+    timestamps: true,
+}
 );
 
 //Export the model
-module.exports = mongoose.model('User', userSchema);
+module.exports = mongoose.model('Contact', contactsSchema);
